@@ -1,1 +1,27 @@
-Hola
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jugando con xhr</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<header class="masthead">
+		<h1>¿Qué te interesa hoy?</h1>
+
+		<div class="site-container">
+			<form id="search-form">
+				<label for="search-keyword" class="visualyhidden">¿Qué buscamos?</label>
+				<input id="search-keyword" type="text" name="search-keyword" placeholder="e.g. Android" required="true">
+				<input id="submit-btn" type="submit" value="submit">
+			</form>
+		</div>
+	</header>
+
+	<div class="site-container">
+		<ul id="response-container"></ul>
+	</div>
+	<script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
